@@ -48,7 +48,7 @@ const Header = () => {
                         <NavLink to="/" className="text-decoration-none text-light">Home</NavLink>
                     </Nav>
 
-                    <Badge badgeContent={getdata.length} color="primary"
+                    <Badge badgeContent={getdata.length} color="error"
                         id="basic-button"
                         aria-controls={open ? 'basic-menu' : undefined}
                         aria-haspopup="true"
